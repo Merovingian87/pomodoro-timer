@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="pomodoro.css">
+    <!-- <script src="pomodoro-timer-upgrade.js"></script> -->
+
+    <title>Pomodoro Timer</title>
+
+  </head>
+  <body>
+
+        <div class="container">
+
+          <!-- Regular Clock -->
+            <div class="clock-container">
+                <div id="MyClockDisplay" class ="clock">
+                </div>
+                <script src="pomodoro-clock.js"></script>
+            </div>
+
+            <!-- Tomato Picture -->
+            <div class="tomato-pic">
+              <div><img src="img/pomodoro-timer.png"/></div>
+            </div>
+
+            <!-- Timer Button and Display -->
+            <div class="timer-container">
+                <!-- <div class="button-div"> -->
+                <button class="button-1" onclick="startTimer()">Start Timer</button>
+                <!-- </div> -->
+                  <div class="timer-div">
+                    <div id="MyTimerDisplay" class ="clock2">
+                    </div>
+                    <script src="pomodoro-timer-upgrade.js"></script>
+                  </div>
+            </div>
+
+            <div class="final-message">
+                <div id="TimerFinished" class ="message">
+            </div>
+
+            </div>
+
+        </div>
+  </body>
+</html>
