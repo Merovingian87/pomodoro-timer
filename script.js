@@ -1,6 +1,6 @@
 "use strict";
 
-function startTime() {
+function showStartTime() {
   let min = 25;
       let sec = 0;
 
@@ -13,4 +13,3 @@ function startTime() {
     document.getElementById("MyTimerDisplay").textContent = startTime;
   }
   showStartTime();
-}
